@@ -97,6 +97,7 @@
 				FF101ABB2D7727B300CDB745 /* Frameworks */,
 				FF101ABC2D7727B300CDB745 /* Resources */,
 				137AF886BD7C609A3F28E00D /* [CP] Embed Pods Frameworks */,
+				7DFDCDAE2D986870E5662BF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,6 +176,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyFateConnect/Pods-LuckyFateConnect-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7DFDCDAE2D986870E5662BF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyFateConnect/Pods-LuckyFateConnect-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyFateConnect/Pods-LuckyFateConnect-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyFateConnect/Pods-LuckyFateConnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9E35C06B13EAEEE24FADF95E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,11 +235,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LuckyFateConnect/LuckyFateConnect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LuckyFateConnect/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Fate Connect";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Lucky Fate Connect require to certain device information to optimize your gaming experience. By analyzing your device data, we ensure a smooth gaming experience, personalized features and enhanced performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -233,7 +253,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyFateConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Lucky.FateConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -254,11 +274,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LuckyFateConnect/LuckyFateConnect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LuckyFateConnect/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Fate Connect";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Lucky Fate Connect require to certain device information to optimize your gaming experience. By analyzing your device data, we ensure a smooth gaming experience, personalized features and enhanced performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -270,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LuckyFateConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Lucky.FateConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

@@ -430,7 +430,7 @@
         <!--Lucky PrivacyVC-->
         <scene sceneID="u6A-Lh-AyS">
             <objects>
-                <viewController id="Rxv-Zz-zcu" customClass="LuckyPrivacyVC" customModule="LuckyFateConnect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LuckyPrivacyVC" id="Rxv-Zz-zcu" customClass="LuckyPrivacyVC" customModule="LuckyFateConnect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NmQ-Py-tUT">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,7 +444,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7E-zB-0N5">
-                                <rect key="frame" x="47" y="8" width="48" height="48"/>
+                                <rect key="frame" x="500" y="8" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="K7E-zB-0N5" secondAttribute="height" id="upg-n1-1e2"/>
                                 </constraints>
@@ -471,12 +471,19 @@
                             <constraint firstAttribute="trailing" secondItem="vfF-Am-Ny0" secondAttribute="trailing" id="Gty-JP-Nbz"/>
                             <constraint firstItem="OgB-MK-77E" firstAttribute="centerX" secondItem="NmQ-Py-tUT" secondAttribute="centerX" id="JME-0r-YTJ"/>
                             <constraint firstItem="vfF-Am-Ny0" firstAttribute="leading" secondItem="NmQ-Py-tUT" secondAttribute="leading" id="Lry-2o-LtM"/>
+                            <constraint firstItem="70T-gh-nZo" firstAttribute="trailing" secondItem="K7E-zB-0N5" secondAttribute="trailing" constant="20" id="NHq-AH-lBo"/>
                             <constraint firstItem="OgB-MK-77E" firstAttribute="centerY" secondItem="NmQ-Py-tUT" secondAttribute="centerY" id="Yah-07-IlC"/>
                             <constraint firstAttribute="bottom" secondItem="vfF-Am-Ny0" secondAttribute="bottom" id="knt-Id-EKG"/>
-                            <constraint firstItem="K7E-zB-0N5" firstAttribute="centerX" secondItem="NmQ-Py-tUT" secondAttribute="centerX" multiplier="0.25" id="nHr-y6-sVc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dyp-IN-VWu"/>
+                    <connections>
+                        <outlet property="backView" destination="K7E-zB-0N5" id="OQT-1w-hvx"/>
+                        <outlet property="bottomCos" destination="knt-Id-EKG" id="PWX-ig-S5z"/>
+                        <outlet property="indicatorView" destination="OgB-MK-77E" id="mmD-LE-Mfd"/>
+                        <outlet property="topCos" destination="AFv-OE-dQB" id="n4r-v4-WrB"/>
+                        <outlet property="webView" destination="vfF-Am-Ny0" id="Zgp-jw-zrL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ZL-mQ-7WI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -678,10 +685,13 @@ Embark on your journey with Lucky Fate Connect and let fate guide your way! âœ¨ð
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="egg-D3-oAe"/>
+                    <connections>
+                        <outlet property="startButton" destination="ziS-pi-htv" id="69s-LN-cUd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1C6-SP-60J" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175" y="-11"/>
+            <point key="canvasLocation" x="95" y="-28"/>
         </scene>
         <!--Lucky HomeVC-->
         <scene sceneID="HLx-Jl-4j8">

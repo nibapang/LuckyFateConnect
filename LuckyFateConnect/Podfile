@@ -8,6 +8,9 @@ target 'LuckyFateConnect' do
   # Pods for LuckyFateConnect
   pod 'TextFieldEffects'
   pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
+  pod 'FBSDKCoreKit', '17.4.0'
 end
 
 post_install do |installer|
