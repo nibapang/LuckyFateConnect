@@ -1,0 +1,99 @@
+
+/* Class = "UILabel"; text = "ABOUT US"; ObjectID = "0Vi-6X-5qO"; */
+"0Vi-6X-5qO.text" = "ABOUT US";
+
+/* Class = "UIButton"; normalTitle = "Setting"; ObjectID = "1No-Zr-oLg"; */
+"1No-Zr-oLg.normalTitle" = "Setting";
+
+/* Class = "UILabel"; text = "Name Generate"; ObjectID = "2Zv-B6-Tjc"; */
+"2Zv-B6-Tjc.text" = "Name Generate";
+
+/* Class = "UITextView"; text = "Welcome to Lucky Fate Connect – the ultimate app designed to bring luck, destiny, and personal discovery into one place! Our app is built to help users explore their lucky numbers, generate unique names based on fate, and personalize their journey through intuitive settings.\n\n🌟 Our Mission\nAt Lucky Fate Connect, we believe that luck and destiny play a powerful role in shaping our lives. Our mission is to provide an engaging, interactive, and insightful platform where users can uncover their lucky numbers and find names that resonate with their unique personality and birth details.\n\n🔢 Lucky Number Feature\nFind your personal lucky number based on your name and birthdate. Whether you’re looking for guidance in daily decisions or just want to explore numerology, our lucky number generator will give you a meaningful number that aligns with your fate.\n\n🎭 Name Generator\nYour name is your identity! Our intelligent name generator crafts personalized names based on your date of birth, time, and family details, giving you a name that is truly destined for you.\n\n⚙️ Customization & Settings\nModify your experience through our custom settings. Whether you prefer different number calculation methods, name patterns, or simply want to explore different naming styles, Lucky Fate Connect lets you personalize your journey.\n\n💡 Why Choose Lucky Fate Connect?\n✅ Intuitive & Easy-to-Use Interface\n✅ Accurate & Meaningful Name Suggestions\n✅ Personalized Lucky Number Insights\n✅ Beautifully Designed, Inspired by Fate & Destiny\n\nEmbark on your journey with Lucky Fate Connect and let fate guide your way! ✨🍀"; ObjectID = "2fj-gl-umP"; */
+"2fj-gl-umP.text" = "Welcome to Lucky Fate Connect – the ultimate app designed to bring luck, destiny, and personal discovery into one place! Our app is built to help users explore their lucky numbers, generate unique names based on fate, and personalize their journey through intuitive settings.\n\n🌟 Our Mission\nAt Lucky Fate Connect, we believe that luck and destiny play a powerful role in shaping our lives. Our mission is to provide an engaging, interactive, and insightful platform where users can uncover their lucky numbers and find names that resonate with their unique personality and birth details.\n\n🔢 Lucky Number Feature\nFind your personal lucky number based on your name and birthdate. Whether you’re looking for guidance in daily decisions or just want to explore numerology, our lucky number generator will give you a meaningful number that aligns with your fate.\n\n🎭 Name Generator\nYour name is your identity! Our intelligent name generator crafts personalized names based on your date of birth, time, and family details, giving you a name that is truly destined for you.\n\n⚙️ Customization & Settings\nModify your experience through our custom settings. Whether you prefer different number calculation methods, name patterns, or simply want to explore different naming styles, Lucky Fate Connect lets you personalize your journey.\n\n💡 Why Choose Lucky Fate Connect?\n✅ Intuitive & Easy-to-Use Interface\n✅ Accurate & Meaningful Name Suggestions\n✅ Personalized Lucky Number Insights\n✅ Beautifully Designed, Inspired by Fate & Destiny\n\nEmbark on your journey with Lucky Fate Connect and let fate guide your way! ✨🍀";
+
+/* Class = "UICommand"; title = "Girl"; ObjectID = "3v9-lE-slH"; */
+"3v9-lE-slH.title" = "Girl";
+
+/* Class = "UILabel"; text = "Date of Birth"; ObjectID = "4I3-jT-rPg"; */
+"4I3-jT-rPg.text" = "Date of Birth";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "68R-4E-6Hm"; */
+"68R-4E-6Hm.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "AsU-2T-QC4"; */
+"AsU-2T-QC4.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "PRIVACY POLICY"; ObjectID = "BDm-yk-3zc"; */
+"BDm-yk-3zc.text" = "PRIVACY POLICY";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "Cgu-aR-QJv"; */
+"Cgu-aR-QJv.normalTitle" = "Search";
+
+/* Class = "UIButton"; normalTitle = "Lucky Number"; ObjectID = "Frt-D7-0Hi"; */
+"Frt-D7-0Hi.normalTitle" = "Lucky Number";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "IM3-l7-X4L"; */
+"IM3-l7-X4L.text" = "0";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "Q0Y-rl-3Cc"; */
+"Q0Y-rl-3Cc.text" = "About us";
+
+/* Class = "UILabel"; text = "🔘Gender"; ObjectID = "S6D-dl-3ju"; */
+"S6D-dl-3ju.text" = "🔘Gender";
+
+/* Class = "UILabel"; text = "The future belongs to those who believe in the beauty of their dreams."; ObjectID = "Tc7-UM-gPI"; */
+"Tc7-UM-gPI.text" = "The future belongs to those who believe in the beauty of their dreams.";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "UhK-nc-wrA"; */
+"UhK-nc-wrA.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "XJf-Pc-bGZ"; */
+"XJf-Pc-bGZ.text" = "Feedback";
+
+/* Class = "UILabel"; text = "Date Of Birth"; ObjectID = "Xmr-pG-oF7"; */
+"Xmr-pG-oF7.text" = "Date Of Birth";
+
+/* Class = "UILabel"; text = "Your Lucky Number"; ObjectID = "aUt-3Z-lVM"; */
+"aUt-3Z-lVM.text" = "Your Lucky Number";
+
+/* Class = "UILabel"; text = "Actual Time"; ObjectID = "bht-RS-94q"; */
+"bht-RS-94q.text" = "Actual Time";
+
+/* Class = "UILabel"; text = "RATE US"; ObjectID = "c4n-Yl-JaV"; */
+"c4n-Yl-JaV.text" = "RATE US";
+
+/* Class = "UILabel"; text = "SETTING"; ObjectID = "doD-OO-oeQ"; */
+"doD-OO-oeQ.text" = "SETTING";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "fE6-Nh-SAG"; */
+"fE6-Nh-SAG.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Here Result"; ObjectID = "fRy-TU-Dli"; */
+"fRy-TU-Dli.text" = "Here Result";
+
+/* Class = "UIButton"; normalTitle = "Name Generate"; ObjectID = "kzj-O2-nDe"; */
+"kzj-O2-nDe.normalTitle" = "Name Generate";
+
+/* Class = "UITextField"; placeholder = "Mother Name"; ObjectID = "nYv-5U-xkB"; */
+"nYv-5U-xkB.placeholder" = "Mother Name";
+
+/* Class = "UIMenu"; title = "Gender"; ObjectID = "rhv-b2-S3V"; */
+"rhv-b2-S3V.title" = "Gender";
+
+/* Class = "UICommand"; title = "Boy"; ObjectID = "wCC-if-gth"; */
+"wCC-if-gth.title" = "Boy";
+
+/* Class = "UISegmentedControl"; wOl-z3-Vrq.segmentTitles[0] = "Today"; ObjectID = "wOl-z3-Vrq"; */
+"wOl-z3-Vrq.segmentTitles[0]" = "Today";
+
+/* Class = "UISegmentedControl"; wOl-z3-Vrq.segmentTitles[1] = "Always"; ObjectID = "wOl-z3-Vrq"; */
+"wOl-z3-Vrq.segmentTitles[1]" = "Always";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "x56-o2-aeU"; */
+"x56-o2-aeU.placeholder" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "ziS-pi-htv"; */
+"ziS-pi-htv.normalTitle" = "Start";
+
+/* Class = "UITextField"; placeholder = "Father Name"; ObjectID = "zke-n7-gcd"; */
+"zke-n7-gcd.placeholder" = "Father Name";
